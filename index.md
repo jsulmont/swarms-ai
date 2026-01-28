@@ -367,3 +367,7 @@ You don't write the HTTP client — you specify what a valid HTTP client must do
 A single engineer who can precisely specify correctness criteria can oversee the output of a thousand agents. But only if the criteria are precise, and only if the verification is rigorous.
 
 Generation is cheap. Correctness is expensive. Our job is to make that expense tractable.
+
+---
+
+**Continue to [Part 2: What To Actually Do About It →](part2)**

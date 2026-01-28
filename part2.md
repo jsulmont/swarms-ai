@@ -1,6 +1,11 @@
+---
+title: "Part 2: What To Actually Do About It"
+description: "Actionable approaches for making AI swarms productive within deterministic constraints"
+---
+
 # Part 2: What To Actually Do About It
 
-*A follow-up to ["Why AI Swarms Cannot Build Architecture"](https://jsulmont.github.io/swarms-ai/)*
+*A follow-up to [Part 1: "Why AI Swarms Cannot Build Architecture"](https://jsulmont.github.io/swarms-ai/)*
 
 ---
 
