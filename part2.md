@@ -31,7 +31,7 @@ Tools:
 
 For the extreme end — verified compilers, verified kernels — there's [Coq](https://coq.inria.fr/), [Isabelle](https://isabelle.in.tum.de/), [Lean](https://leanprover.github.io/). These require hand-written proofs, but they've produced CompCert (a verified C compiler) and seL4 (a verified microkernel). The cost is high; so is the assurance.
 
-In cryptography: [F*](https://www.fstar-lang.org/) and [HACL*](https://hacl-star.github.io/) — verified crypto now shipping in Firefox and the Linux kernel.
+In cryptography: [F\*](https://www.fstar-lang.org/) and [HACL\*](https://hacl-star.github.io/) — verified crypto now shipping in Firefox and the Linux kernel.
 
 The code generator is qualified (DO-178C). "Qualified" means the tool is trusted not to introduce additional errors — if the model is correct and the generator is qualified, the generated code won't add new defects. You verify the model, not the generated code. This is the key insight: push verification upstream, let the machine handle the rest.
 
