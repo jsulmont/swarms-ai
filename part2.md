@@ -155,7 +155,7 @@ This is not a reason to avoid triangulation. It's a reason to:
 
 Worse: **correlated spec-generator failure**. The human writes a contract that aligns with the LLM's blind spot. Generated code satisfies the contract. Generated properties pass. The system is wrong, but no signal fires.
 
-This failure mode is well-documented. [Knight & Leveson (1986)](https://ieeexplore.ieee.org/document/1702161) showed that independently developed software versions failed on the same inputs far more often than statistical independence would predict — developers made similar mistakes at similar decision points. LLMs trained on similar corpora have the same problem, possibly worse.
+This failure mode is well-documented. [Knight & Leveson (1986)](http://sunnyday.mit.edu/papers/nver-tse.pdf) showed that independently developed software versions failed on the same inputs far more often than statistical independence would predict — developers made similar mistakes at similar decision points. LLMs trained on similar corpora have the same problem, possibly worse.
 
 The mitigation is adversarial review — someone tasked with challenging the spec itself, not just verifying implementation against it.
 
